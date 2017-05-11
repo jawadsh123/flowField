@@ -30,15 +30,6 @@ function setup() {
 }
 
 function draw() {
-	// xoff = off_start;
-	// stroke(255);
-	// noFill();
-	// beginShape();
-	// for (var x = 0; x < width; x++){
-	// 	vertex(x, noise(xoff)*height);
-	// 	xoff += 0.02;
-	// }
-	// endShape();
 
 
 	yoff = 0;
@@ -74,7 +65,7 @@ function draw() {
 	}
 
 
-	fr.html(floor(frameRate()));
+	fr.html("FPS:" + floor(frameRate()));
 	// zoff += 0.0003;
 	// noLoop();
 }
